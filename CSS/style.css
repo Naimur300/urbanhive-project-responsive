@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&family=Work+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* nav style start  */
+
+nav{
+    background-color: #9376e0;
+}
+
+.nav-container{
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.logo-container{
+    display: flex;
+    width: 50%;
+    
+}
+.logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.logo-container p{
+    font-size: 30px;
+    
+}
+.hive{
+    color: #e893cf;
+}
+.nav-item-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.nav-item-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.nav-item-container .login{
+    background-color: #e893cf;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+/* nav design ends here  */
+
+/* banner styles start  */
+
+.banner-container{
+    margin: 50px auto 0;
+    max-width: 1400px;
+    min-height: 50px;
+    display: flex;
+    background-color: #e6e9eb;
+    padding: 10px;
+    border-radius: 10px;
+}
+.banner-content{
+    width: 50%;
+    text-align: center;
+}
+.banner-content h1{
+    background-image: linear-gradient(to bottom,#9376e0,#e893cf);
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 50px;
+
+}
+.banner-content p{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+}
+.banner-img{
+    width: 50%;
+}
+.banner-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.icon-container{
+    margin: 0 auto 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    
+}
+.fa-brands{
+    font-size: 70px;
+}
+
+.banner-btn{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid #9376e0;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+/* banner styles end  */
+
+/* products styles start  */
+
+.products-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    max-width: 1400px;
+    margin: 50px auto 50px;
+    min-height: 400px;
+   
+}
+.product-title{
+    text-align: center;
+    font-size: 32px;
+}
+.single-product{
+    background-color: #e6e9eb;
+    border-radius: 10px;
+   padding: 10px 10px 20px;
+   box-shadow: 3px 3px 5px black;
+}
+.single-product img{
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.product-icon-name-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.product-icon-name-container span{
+    padding: 15px;
+    border-radius: 50%;
+    margin-left: 7px;
+}
+.product-icon-name-container .span1{
+    background-color: #e893cf;
+}
+.product-icon-name-container .span2{
+    background-color: green;
+    color: white;
+}
+.product-icon-name-container .span3{
+    background-color: #9376e0;
+}
+
+/* product section styles end  */
+
+/* discount section styles start  */
+.discount-section{
+    background-color: #9376e0;
+    padding: 50px 0;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+.discount-container{
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.discount-img{
+    width: 50%;
+    position: relative;
+}
+.discount-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.discount-text{
+    width: 50%;
+}
+.discount-text h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.discount-text p{
+    font-size: 15px;
+}
+.discount-text .btn-dis{
+    padding: 10px 20px;
+    background-color: #e893cf;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.dis-number{
+    background-color: yellow;
+    height: 80px;
+    width: 80px;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 5%;
+    left: 70%;
+}
+
+
+
+/* discount section styles end  */
+
+.customer-section{
+    border: 1px solid red;
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   margin-bottom: 50px;
+}
+.single-review{
+    flex-basis: 300px;
+    padding: 10px;
+    background-color: #e893cf;
+    border-radius: 10px;
+
+}
+.single-review img{
+    width: 60px;
+    height: 60px;
+}
+.card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background-color: #9376e0;
+    height: 50vh;
+    align-items: center;
+}
+.footer-logo-container{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 0;
+}
+.footer-logo-container img{
+    width: 50px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.footer-logo-container p{
+    font-size: 30px;
+    
+}
+.copy{
+    margin-top: 0;
+    text-align: center;
+    font-weight: 600;
+}
+

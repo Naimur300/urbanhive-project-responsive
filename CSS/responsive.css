@@ -1,0 +1,62 @@
+@media screen and (max-width: 400px) {
+    .nav-container{
+        flex-direction: column;
+    }
+    .nav-item-container{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .nav-item-container a{
+        margin-top: 30px;
+    }
+    .nav-item-container .login{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    /* navigation responsive end  */
+    
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content,.banner-img{
+        width: 100%;
+    }
+    .banner-content h1{
+        font-size: 30px;
+    } 
+    .banner-content p{
+        font-size: 25px;
+    }
+    /* .icon-container{
+        flex-direction: column;
+        gap: 30px;
+    } */
+    .fa-brands{
+        font-size: 40px;
+    }
+
+    /* banner responsive end  */
+
+    /* product responsive start  */
+
+    .products-container{
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+
+     /* product responsive end  */
+
+     /* discount responsive start  */
+    .discount-container{
+        flex-direction: column;
+    }
+    .discount-img,.discount-text{
+        width: 100%;
+    }
+
+     /* discount responsive end  */
+
+
+}
